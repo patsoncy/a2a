@@ -1,0 +1,20 @@
+{
+  "name": "a2a",
+  "version": "0.1.0",
+  "description": "a2a == all to all,parse any text to any style",
+  "main": "index.js",
+  "scripts": {
+    "base-sample": "node ./sample/base-sample.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "patson",
+  "license": "MIT",
+  "rules": {
+    "default": "src/rules",
+    "extensions": "node_modules"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mkdirp": "^0.5.1"
+  }
+}
